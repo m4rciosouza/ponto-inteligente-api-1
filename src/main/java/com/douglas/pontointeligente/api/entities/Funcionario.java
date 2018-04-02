@@ -166,7 +166,6 @@ public class Funcionario implements Serializable {
 	}
 	
 	@ManyToOne(fetch = FetchType.EAGER)
-	@Column(name="empresa", nullable= true)
 	public Empresa getEmpresa() {
 		return empresa;
 	}
